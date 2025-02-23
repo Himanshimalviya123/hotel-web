@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="rentcar.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        
+<!-- ------------------------------------container------------------------- -->
+
+        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
+            <div>
+                <img src="/image/logo2.png" alt="">
+            </div>
+           
+            <ul>
+                
+                <a href="#"><li onclick="home1()">CARS</li></a>
+                <a href="#"><li >HOME</li></a>
+                <a href="#"><li>SERVICE</li></a>
+                <a href="#"><li>CONTACT</li></a>
+            </ul>
+
+            <input type="text" placeholder="Search">
+            
+        </div>
+        <div id="idx"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+    <!-- ------------------------------------list------------------------- -->
+    <div id="list" style="display: none;">
+        <ul>
+            <li>Rolls Royce</li>
+            <li>BMW</li>
+            <li>Audi</li>
+        </ul>
+    </div>
+
+    <section>
+          <!-- -------------Swiper ---------------->
+  <div class="swiper mySwiper card-box">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <img src="hotel1.jpg" alt="">
+         </div>
+
+      <div class="swiper-slide">
+        <img src="carousel-1.jpg" alt="">
+     </div>
+
+
+      <div class="swiper-slide">
+          <img src="Slider-v3.jpg" alt="">
+      </div>
+
+     <div class="swiper-slide">
+        <img src="our-2.jpg" alt="">
+     </div>
+
+     <div class="swiper-slide">
+      <img src="room-3.jpg" alt="">
+     </div>
+
+
+      </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+        </div>
+      
+    </section>
+
+  <!-- ------------------------------------ret------------------------- -->
+    <div id="ret">
+      <h3>Discover A Brand Luxurious Hotel</h3>
+      <h2>Reserved Now <br>& Get 50% off</h2>
+      <!-- <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
+      <a href="signup.html">RESERVE NOW!</a>
+    </div>
+  <!-- ------------------------------------box-1------------------------- -->
+    <div id="box-1">
+        <div>Only For This Month  <span id="type">  </span> </div>
+        <!-- get 75% Discount -->
+    </div>
+   <!-- ------------------------------------box4------------------------- -->
+    <div id="box4">
+        <div id="box3">
+    
+        Add Location
+        <input type="text" placeholder="Enter Location" id="add">
+        <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+
+        Enter Pickup date
+        <input type="date" placeholder="Enter Date">
+        
+        Enter Drope date
+        <input type="date" placeholder="Check In">
+        
+        Enter Cars
+        <input type="text" placeholder="Cars"  id="car3">
+        <i class="fa-solid fa-angle-down" onclick="car()"></i>
+        
+        <a href="#"><p>Find a hotel</p></a>
+    </div>
+    </div>
+
+   <!--------------------------------------list3--------------------------->
+
+   <section>
+    <div id="list3" style="display: none;">
+        <ul>
+            <li onclick="location1()">Bhopal</li>
+            <li onclick="location12()">Mp Nagar</li>
+            <li onclick="location13()">Bihar</li>
+        </ul>
+    </div>
+</section>
+
+
+ <!--------------------------------------list2--------------------------->
+
+<section>
+    <div id="list2" style="display: none;" >
+        <ul>
+            <li onclick="car4()">Rolls Royce</li>
+            <li onclick="car5()">BMW</li>
+            <li onclick="car6()">Audi</li>
+        </ul>
+    </div>
+</section>
+
+ <!--------------------------------------car-fact--------------------------->
+<section>
+    
+    <div id="car-fact" >
+        <h1>SEE OUR</h1>
+        <h1>ROOM</h1>
+    </div>
+</section>
+
+ <!--------------------------------------car-factory--------------------------->
+
+ <section id="sec1">
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-1.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-2 (1).jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="room-3.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-4.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-5.jpg" alt="">
+        </div>
+    <div id="rol">
+        <h4>Rolls royce</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+
+
+
+    
+    <div id="car-fact1"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="hotel1.jpg" alt="">
+            <h1 align="center"><b>LUXURY ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h4>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.</h4>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6>For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <button>Book Now!</button>
+</div>
+    </div>
+ </section>
+
+<!-- ---------------------car-fact2------------------ -->
+ <section>
+    <div id="car-fact2" >
+        <h6>Categories</h6>
+        <h1>Rental Car Types</h1>
+    </div>
+</section>
+
+<!-- ---------------------luxury cars------------------ -->
+<section  id="sec2">
+<div id="luxury-car">
+    <p>Luxury car</p>
+ <img src="Luxurycar.jpg" alt="">
+ <div id="lux-car"><div><p>01</p></div></i></div>
+ 
+</div>
+</section>
+
+<!-- ---------------------swiper------------------ -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="first.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="typed.js"></script>
+</body>
+</html>
