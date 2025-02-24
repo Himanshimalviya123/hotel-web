@@ -1,0 +1,111 @@
+body{
+    background-color:#344a72;
+    font-family: 'Roboto'sans-serif;
+}
+.singup-box{
+    width: 360px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 3px;
+}
+.singup-box h1{
+    text-align: center;
+}
+.singup-box h4{
+    text-align: center;
+}
+.singup-box form{
+    width: 300px;
+    margin-left: 2opx;
+    margin-left: 20px;
+
+}
+.singup-box form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+    align-items:center ;
+   
+}
+.singup-box form input{
+    width: 100%;
+    padding:  7px;
+    bottom: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+    
+}
+.singup-box #btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+
+
+}
+.singup-box p{
+    text-align: center;
+    padding-top: 20px;
+    font-size:15px ;
+    padding: 10px;
+}
+.para2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: -20px;
+
+}
+.para2 a{
+    color:aqua;
+    /* padding: 50px; */
+}
+/* ===========================login css================== */
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.login-box h1{
+    text-align: center;
+}
+.login-box #btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+}
+.login-box form{
+    width: 300px;
+    margin-left: 2opx;
+    margin-left: 20px;
+
+}
+.login-box form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+    align-items:center ;
+   
+}
+.login-box form input{
+    width: 100%;
+    padding:  7px;
+    bottom: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    outline: none;
+    
+}
