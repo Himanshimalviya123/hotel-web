@@ -20,7 +20,7 @@ VANTA.BIRDS({
 let set=()=>{
     let inpname = document.querySelector("#name").value;
     let inpnumer = document.querySelector("#num").value;
-    let inpemail = document.querySelector("#Email").value;
+    let inpemail = document.querySelector("#email").value;
     let inppass = document.querySelector("#pass").value;
 
     let errname = document.querySelector("#err1");
@@ -61,7 +61,7 @@ let set=()=>{
     localStorage.setItem("Email", inpemail);
     localStorage.setItem("Password", inppass);
 
-    location.href="login2.html";
+    location.href=" sing login.html";
     return false;
 }
 
