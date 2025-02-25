@@ -1,29 +1,27 @@
-
- *{
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-body{
-    background-image: url("images111.jpeg");
-    background-size: cover;
-    display: flex;
-    margin-top: 4rem;
-    position: absolute;
-    left: 35%;
-}    
+#inp p{
+    margin-top: 0.5rem;
+    color: red;
+} 
+
 
 #sign{
-    width: 50%;
+    width: 400px;
     background-color: #bbb1e4;
     background: transparent;
-    border: 2px solid rgb(128, 128, 128);
+    border: 2px solid gray;
+    /* padding: 1rem; */
     padding: 1.5rem 0rem 2rem 0rem;
     border-radius: 1rem;
 }
 h1{
     display: flex;
     justify-content: center;
-    color: white;
+    color: #fff;
 }
 
 #Login-b{
@@ -32,10 +30,9 @@ h1{
     padding: 14px;
     gap: 10px;
 }
-
 #Login-b a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 #Login-b button{
@@ -44,23 +41,21 @@ h1{
     font-weight: 600;
     border: none;
     border-radius: 10px;
-    background-color:#0740f1;;
-    color: white;
+    background-color: #0740f1;
+    color: #fff;
 }
 
 #inp{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    gap: 1rem;
-}
-#inp a{
-    color:#0740f1;
+    /* gap: 1rem; */
 }
 
 #inp input{
     padding: 8px 20px 8px 12px;
-    width: 72%; 
+    margin-top: 1rem;
+    width: 100%; 
     outline: none;
     font-size: 1rem;
     border-radius: 11px;
@@ -68,36 +63,18 @@ h1{
 }
 
 #btn{
-    display: grid;
+    display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
 #btn input{
     padding: 10px;
-    width: 100%;
+    width: 50%;
     outline: none;
     border-radius: 10px;
     border: none;
-    background-color: #0740f1;
-    color: white;
-    font-size: 16px;
-}
-
-#btn span{
-    color: #0740f1;
-}
-
-/* ///-------------------------second CSS------------- */
-
-#p{
-    margin-top: -14px;
-    margin-left: 13rem;
-    color: #0740f1;
-}
-
-#btn p{
-    font-size: 1.2rem;
-    margin-top: 10px;
-    color:#fff;
+    background-color:#0740f1;
+    color: #fff;
+    font-size:16px;
 }
