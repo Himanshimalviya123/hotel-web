@@ -328,7 +328,6 @@
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
-
 #rol{
     display: grid;
     padding: 5px 0px 10px 0px;
@@ -412,7 +411,63 @@
 #lux-room p{
     margin-top: 22px;
 }
+/* -------------------------------team member ------------------------------------ */
 
+#sec3{
+    /* display: flex;
+    justify-content: space-evenly; */
+    background-color: gray;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 2rem 0rem;
+    display: grid;
+    grid-template-rows: auto,auto,auto;
+}
+
+#team{
+    /* display: grid;
+    grid-template-columns: auto,auto,auto; */
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    width: 30%;
+    /* height: 350px; */
+    padding: 1rem;
+    margin-bottom: 10px;
+
+    /* border-top-left-radius: 50px; */
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#team img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+#roll{
+    display: grid;
+    padding: 5px 0px 10px 0px;
+}
+
+#details1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#btn1 button{
+ padding: 8px 16px 8px 16px;
+ border: none;
+ border-radius: 10px;
+}
 
 
 /* /-------swiper animation----------------------/ */
