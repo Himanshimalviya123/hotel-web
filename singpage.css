@@ -4,7 +4,10 @@
     margin: 0;
 }
 body{
-    background-image: url("images111.jpeg");
+    /* background-image: url("images111.jpeg"); */
+    /* background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142)); */
+/* background-color:(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142)) ; */
+background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142));
     background-size: cover;
     display: flex;
     margin-top: 4rem;
@@ -14,11 +17,13 @@ body{
 
 #sign{
     width: 50%;
-    background-color: #bbb1e4;
+    /* background-color: #bbb1e4; */
+
     background: transparent;
     border: 2px solid rgb(128, 128, 128);
     padding: 1.5rem 0rem 2rem 0rem;
     border-radius: 1rem;
+
 }
 h1{
     display: flex;

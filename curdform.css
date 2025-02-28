@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.swiper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.form-container{
+    width: 100%;
+   background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+   
+}
+
+.swiper-slide{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-size:cover;
+}
+
