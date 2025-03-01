@@ -1,47 +1,49 @@
 {
-    "hotel": [
-      {
-        "name": "riya",
-        "email":"riya@12gmail.com",
-        "mobile": 1234567,
-        "address":"ashoka garden",
-        "city":"bhopal",
-        "state":"mp",
-        "pincode": 201023,
-        "country":"india",
-        "datein": "01-11-25",
-        "dateout": "05-11-25",
-        "person": 4,
-        "price": 500
-      },
-      {
-        "name": "priya",
-        "email":"priya@123gmail.com",
-        "mobile": 1265734567,
-        "address":"chetak",
-        "city":"bhopal",
-        "state":"mp",
-        "pincode": 201023,
-        "country":"india",
-        "datein": "03-11-25",
-        "dateout": "05-11-25",
-        "person": 2,
-        "price": 500
-      },
-      {
-        "name": "neha",
-        "email":"neha@1233gmail.com",
-        "mobile": 1323234567,
-        "address":"mp nagar",
-        "city":"bhopal",
-        "state":"mp",
-        "pincode": 201023,
-        "country":"india",
-        "datein": "07-11-25",
-        "dateout": "10-11-25",
-        "person": 4,
-        "price": 500
+  "hotel": [
+    {
+      "name": "priya",
+      "email": "priya@123gmail.com",
+      "mobile": 1265734567,
+      "address": "chetak",
+      "city": "bhopal",
+      "state": "mp",
+      "pincode": 201023,
+      "country": "india",
+      "datein": "03-11-25",
+      "dateout": "05-11-25",
+      "person": 2,
+      "price": 500,
+      "id": "24b8"
+    },
+    {
+      "id": "c2fd",
+      "name": "sonu ",
+      "email": "malviyasonu12@gmail.com",
+      "number": "021574572237",
+      "address": "ashok nagar",
+      "city": "bhopal",
+      "state": "mp",
+      "pincode": "6457686",
+      "country": "India",
+      "datein": "",
+      "dateout": "",
+      "person": "3",
+      "price": 500
+    },
+    {
+      "id": "ef66",
+      "name": "pratik",
+      "email": "pratik@45gmail.com",
+      "number": "02157457216",
+      "address": "mp nagar",
+      "city": "nagpur",
+      "state": "mp",
+      "pincode": "6457686",
+      "country": "India",
+      "datein": "2025-03-06",
+      "dateout": "2025-03-19",
+      "person": "3",
+      "price": 500
+    }
+  ]
 }
-]
-  }
-  

@@ -28,15 +28,37 @@ data.map((e)=>{
    <td id="female">${e.female}</td>
    <td id="male">${e.male}</td>
    <td id="kids">${e.kids}</td>
-   <td onclick="del('${e.id}')">Cancel</td>
+    <td onclick="confirmdeletee('${e.id}')">Cancel</td>
     <td onclick="formfill('${e.id}')">Update</td>
    </tr>
 
    `
 })
 }
+let confirmdeletee=(id)=>{
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            del(id)
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+        }
+      });
+}
+
+
 let del=(id)=>{
-    let url=`http://localhost:3000/hotel/${id};`
+    let url=`http://localhost:3000/hotel/${id}`
     fetch(url,{method:"DELETE"});
 
 }
@@ -44,7 +66,7 @@ let del=(id)=>{
 let ins=()=>{
     let inpname=document.querySelector("#name").value
     let inpemail=document.querySelector("#email").value
-    let inpmobile=document.querySelector("#mobile").value
+    let inpmobile=document.querySelector("#number").value
     let inpaddress=document.querySelector("#address").value
     let inpcity=document.querySelector("#city").value
     let inpstate=document.querySelector("#state").value
@@ -70,7 +92,7 @@ let ins=()=>{
             {
                 "name":inpname,
                 "email":inpemail,
-                "mobile":inpmobile,
+                "number":inpmobile,
                 "address":inpaddress,
                 "city":inpcity,
                 "state":inpstate,
@@ -85,7 +107,7 @@ let ins=()=>{
         )
     })
 
-    location.href="curdtable.html"
+    location.href="curdform.css"
     return false;
     
 }
@@ -101,28 +123,28 @@ let formfill= async(id)=>{
         // Enter name: <input type="text" id="upname" value="${data.name}">
           <form action="">
             <h1>HOTEL BOOKING</h1>
-            <input type="text" id="name" placeholder="enter name" value="${data.name}><br><br>
+            <input type="text" id="upname" placeholder="enter name" value="${data.name}><br><br>
             <div>
-            <input type="text" id="email" placeholder="enter email" value="${data.email}>
-            <input type="number" id="number" placeholder="mobileno." value="${data.mobile}><br><br>
+            <input type="text" id="upemail" placeholder="enter email" value="${data.email}>
+            <input type="number" id="upnumber" placeholder="mobileno." value="${data.mobile}><br><br>
             </div>
             <div>
-            <input type="text" id="address" placeholder="enter address" value="${data.address}><br><br>
+            <input type="text" id="upaddress" placeholder="enter address" value="${data.address}><br><br>
             </div> 
             <div>
-            <input type="text" id="city" placeholder="city" value="${data.city}>
-            <input type="text" id="state" placeholder="state" value="${data.state}><br><br>
+            <input type="text" id="upcity" placeholder="city" value="${data.city}>
+            <input type="text" id="upstate" placeholder="state" value="${data.state}><br><br>
             </div>
             <div>
-                <input type="number" id="pincode" placeholder="pincode" value="${data.pincode}>
-                <input type="text" id="country" placeholder="country" value="${data.country}><br><br>
+                <input type="number" id="uppincode" placeholder="pincode" value="${data.pincode}>
+                <input type="text" id="upcountry" placeholder="country" value="${data.country}><br><br>
             </div>
             <div>
-                <input type="date" id="datein" placeholder="" value="${data.datein}>
-                <input type="date" id="dateout" placeholder="" value="${data.dateout}><br><br>
+                <input type="date" id="updatein" placeholder="" value="${data.datein}>
+                <input type="date" id="updateout" placeholder="" value="${data.dateout}><br><br>
             </div>
             <div>
-                <input type="text" id="person" placeholder="no.of person" value="${data.person}>
+                <input type="text" id="upperson" placeholder="no.of person" value="${data.person}>
                <select name="" id="">
                 <option value="male">male</option>
                 <option value="male">1</option>
@@ -151,7 +173,7 @@ let formfill= async(id)=>{
                 <option value="kids">5</option>
                </select>
             </div><br><br>
-            <button type="submit" id="formdata">BOOK NOW</button>
+            <button type="submit" id="finalupdate()">update</button>
         </form>
 
         
@@ -160,3 +182,55 @@ let formfill= async(id)=>{
 
 
 }
+
+let finalupdate=()=>{
+    let inpname=document.querySelector("#upname").value
+    let inpemail=document.querySelector("#upemail").value
+    let inpmobile=document.querySelector("#upnumber").value
+    let inpaddress=document.querySelector("#upaddress").value
+    let inpcity=document.querySelector("#upcity").value
+    let inpstate=document.querySelector("#upstate").value
+    let inppincode=document.querySelector("#uppincode").value
+    let inpcountry=document.querySelector("#upcountry").value
+    let inpdatein=document.querySelector("#updatein").value
+    let inpdateout=document.querySelector("#updateout").value
+    let inpperson=document.querySelector("#upperson").value
+
+
+
+    let url=`http://localhost:3000/hotel/${id}`
+
+    fetch(url,{
+
+        method:"PUT" ,
+
+        headers:{
+            "Content-type":"application/json"
+        },
+
+        body:JSON.stringify(
+            {
+                "name":inpname,
+                "email":inpemail,
+                "number":inpmobile,
+                "address":inpaddress,
+                "city":inpcity,
+                "state":inpstate,
+                "pincode":inppincode,
+                "country":inpcountry,
+                "datein":inpdatein,
+                "dateout":inpdateout,
+                "person":inpperson,
+                "name":inpname,
+                "price":500
+            }
+        )
+    })
+
+    location.href="curdtable.html"
+    return false;
+    
+}
+
+
+
