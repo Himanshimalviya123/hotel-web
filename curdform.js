@@ -92,7 +92,7 @@ let ins=()=>{
             {
                 "name":inpname,
                 "email":inpemail,
-                "number":inpmobile,
+                "mobile":inpmobile,
                 "address":inpaddress,
                 "city":inpcity,
                 "state":inpstate,
@@ -107,7 +107,7 @@ let ins=()=>{
         )
     })
 
-    location.href="curdform.css"
+    location.href="curdtable.html"
     return false;
     
 }
@@ -120,31 +120,31 @@ let formfill= async(id)=>{
 
     let formdata=`
 
-        // Enter name: <input type="text" id="upname" value="${data.name}">
+      
           <form action="">
             <h1>HOTEL BOOKING</h1>
-            <input type="text" id="upname" placeholder="enter name" value="${data.name}><br><br>
+            <input type="text" id="upname" placeholder="enter name" value="${data.name}">
             <div>
-            <input type="text" id="upemail" placeholder="enter email" value="${data.email}>
-            <input type="number" id="upnumber" placeholder="mobileno." value="${data.mobile}><br><br>
+            <input type="text" id="upemail" placeholder="enter email" value="${data.email}">
+            <input type="number" id="upnumber" placeholder="mobileno" value="${data.mobile}">
             </div>
             <div>
-            <input type="text" id="upaddress" placeholder="enter address" value="${data.address}><br><br>
+            <input type="text" id="upaddress" placeholder="enter address" value="${data.address}">
             </div> 
             <div>
-            <input type="text" id="upcity" placeholder="city" value="${data.city}>
-            <input type="text" id="upstate" placeholder="state" value="${data.state}><br><br>
+            <input type="text" id="upcity" placeholder="city" value="${data.city}">
+            <input type="text" id="upstate" placeholder="state" value="${data.state}">
             </div>
             <div>
-                <input type="number" id="uppincode" placeholder="pincode" value="${data.pincode}>
-                <input type="text" id="upcountry" placeholder="country" value="${data.country}><br><br>
+                <input type="number" id="uppincode" placeholder="pincode" value="${data.pincode}">
+                <input type="text" id="upcountry" placeholder="country" value="${data.country}"><br><br>
             </div>
             <div>
-                <input type="date" id="updatein" placeholder="" value="${data.datein}>
-                <input type="date" id="updateout" placeholder="" value="${data.dateout}><br><br>
+                <input type="date" id="updatein" placeholder="" value="${data.datein}">
+                <input type="date" id="updateout" placeholder="" value="${data.dateout}"><br><br>
             </div>
             <div>
-                <input type="text" id="upperson" placeholder="no.of person" value="${data.person}>
+                <input type="text" id="upperson" placeholder="no of person" value="${data.person}">
                <select name="" id="">
                 <option value="male">male</option>
                 <option value="male">1</option>
@@ -173,7 +173,7 @@ let formfill= async(id)=>{
                 <option value="kids">5</option>
                </select>
             </div><br><br>
-            <button type="submit" id="finalupdate()">update</button>
+            <input type="submit" value="update" onclick="return finalupdate('${data.id}')">
         </form>
 
         
@@ -183,7 +183,7 @@ let formfill= async(id)=>{
 
 }
 
-let finalupdate=()=>{
+let finalupdate= async (id)=>{
     let inpname=document.querySelector("#upname").value
     let inpemail=document.querySelector("#upemail").value
     let inpmobile=document.querySelector("#upnumber").value
@@ -212,7 +212,7 @@ let finalupdate=()=>{
             {
                 "name":inpname,
                 "email":inpemail,
-                "number":inpmobile,
+                "mobile":inpmobile,
                 "address":inpaddress,
                 "city":inpcity,
                 "state":inpstate,
@@ -221,7 +221,6 @@ let finalupdate=()=>{
                 "datein":inpdatein,
                 "dateout":inpdateout,
                 "person":inpperson,
-                "name":inpname,
                 "price":500
             }
         )

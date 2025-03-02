@@ -19,7 +19,7 @@
       "id": "c2fd",
       "name": "sonu ",
       "email": "malviyasonu12@gmail.com",
-      "number": "021574572237",
+      "mobile": "021574572237",
       "address": "ashok nagar",
       "city": "bhopal",
       "state": "mp",
@@ -31,19 +31,19 @@
       "price": 500
     },
     {
-      "id": "ef66",
-      "name": "pratik",
-      "email": "pratik@45gmail.com",
-      "number": "02157457216",
-      "address": "mp nagar",
-      "city": "nagpur",
-      "state": "mp",
-      "pincode": "6457686",
-      "country": "India",
-      "datein": "2025-03-06",
-      "dateout": "2025-03-19",
-      "person": "3",
-      "price": 500
+      "name": "SAKSHI",
+      "email": "",
+      "mobile": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "country": "",
+      "datein": "",
+      "dateout": "",
+      "person": "",
+      "price": 500,
+      "id": "bff9"
     }
   ]
 }
