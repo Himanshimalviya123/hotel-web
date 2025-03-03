@@ -25,9 +25,7 @@ data.map((e)=>{
    <td id="datein">${e.datein}</td>
    <td id="dateout">${e.dateout}</td>
    <td id="person">${e.price*e.person}</td>
-   <td id="female">${e.female}</td>
-   <td id="male">${e.male}</td>
-   <td id="kids">${e.kids}</td>
+   
     <td onclick="confirmdeletee('${e.id}')">Cancel</td>
     <td onclick="formfill('${e.id}')">Update</td>
    </tr>
@@ -144,35 +142,8 @@ let formfill= async(id)=>{
                 <input type="date" id="updateout" placeholder="" value="${data.dateout}"><br><br>
             </div>
             <div>
-                <input type="text" id="upperson" placeholder="no of person" value="${data.person}">
-               <select name="" id="">
-                <option value="male">male</option>
-                <option value="male">1</option>
-                <option value="male">2</option>
-                <option value="male">3</option>
-                <option value="male">4</option>
-                <option value="male">5</option>
-               </select>
-            </div><br>
-            <div>
-                
-               <select name="" id="">
-                <option value="female">female</option>
-                <option value="female">1</option>
-                <option value="female">2</option>
-                <option value="female">3</option>
-                <option value="female">4</option>
-                <option value="female">5</option>
-               </select>
-               <select name="" id="">
-                <option value="kids">kids</option>
-                <option value="kids">1</option>
-                <option value="kids">2</option>
-                <option value="kids">3</option>
-                <option value="kids">4</option>
-                <option value="kids">5</option>
-               </select>
-            </div><br><br>
+                <input type="text" id="upperson" placeholder="no of person" value="${data.person}"><br><br>
+               
             <input type="submit" value="update" onclick="return finalupdate('${data.id}')">
         </form>
 
