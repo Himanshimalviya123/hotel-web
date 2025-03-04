@@ -5,12 +5,26 @@ let fetchData= async ()=>{
    // console.log(res);                  //response
     let data=await res.json()
     console.log(data);                     //show data
+    Datashow(data)
+}
+ let searchh=async()=>{
+    let searchinp=document.querySelector("searchinp").value.tolowerCase()
+    let url='http://localhost:3000/hotel'
+    let res=await fetch(url,{method:"GET"})
+    let data=await res.json()
+
+    let filterData=data.filter((e)=>{
+        return e.name.tolowerCase().includes(searchinp) || e.age.toString().includes(searchinp)
+    })
+Datashow(filterData)
+  }
+let Datashow=(data)=>{
 
 
 
 let show1=document.querySelector("#show")
 data.map((e)=>{
-   show1.innerHTML+=
+   show1.innerHTML+=""
    `
    <tr id="element">
    
