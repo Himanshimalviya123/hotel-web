@@ -6,7 +6,7 @@
     font-family: cursive;
     
 }
-.swiper{
+#swiper{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -31,19 +31,33 @@
     /* padding-left: 35%; */
         /* display: flex; */
         /* flex-wrap: wrap; */
-        padding: 10px;
+        padding: 5px;
         justify-content: center;
         position:absolute;
         /* top: 10rem; */
         /* left: 2rem; */
-        width: 40%;
+        width: 50%;
+        height: 90%;
         color:black;
         z-index: 5;
 
     }
-    
+#form-div{
+    /* width: 50%; */
+    /* height: 80%; */
+    border: 2px solid grey;
+    padding-left: 10%;
+    position: absolute;
+    border-radius: 10%;
 
-.swiper-slide{
+}
+#inp .inppp{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+
+#swiper-slide{
      display: flex;
     justify-content: center;
     align-items: center; 
