@@ -615,7 +615,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     background-color: lightslategray;
+     /* background-color: lightslategray; */
+     background-color: black;
      flex-direction: column;
      overflow: hidden !important;
 }
