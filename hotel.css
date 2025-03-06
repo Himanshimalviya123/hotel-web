@@ -577,7 +577,12 @@
     justify-content: center;
     font-size: 15px;
     flex-wrap: wrap;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
+    color: beige;
+    background-color:#212529; 
+
+    /* background-color: #001238; */
+
     overflow: hidden !important;
 }
 #fourth h2{
@@ -606,7 +611,7 @@
   
 
 }
-/* /=======fourth section end=====/ */
+/* ====fourth section end=====/ */ */
 
 /* ---------------------------------------------------------- */
 #connect{
@@ -668,16 +673,22 @@
 
 
 /* /-------swiper animation----------------------/ */
-
- 
+#container{
+display:none; 
+}
 @media (max-width:450px) {
     body{
         width: 100%;
         box-sizing: border-box;
+        /* padding-top: 20%; */
+    }
+    #container{
+        padding: 0%;
     }
     
     #container ul{
         display: none;
+        padding: 0%;
     }
 
     #container input{
@@ -693,5 +704,9 @@
         margin-left: 24rem;
         margin-top: 1rem;
         color:#fff;
+    }
+    #inp
+    {
+
     }
 }

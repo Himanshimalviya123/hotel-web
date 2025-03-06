@@ -5,7 +5,7 @@ let fetchData= async ()=>{
    // console.log(res);                  //response
     let data=await res.json()
     console.log(data);                     //show data
-    Datashow(data)
+    paginationdata(data)
 }
  let searchh=async()=>{
     let searchinp=document.querySelector("#Searchinp").value.toLowerCase()
@@ -16,9 +16,24 @@ let fetchData= async ()=>{
     let filterData=data.filter((e)=>{
         return e.name.toLowerCase().includes(searchinp) 
     })
-Datashow(filterData)
+    paginationdata(filterData)
   }
 
+  let paginationdata=()=>{
+    $('#demo').pagination({
+        dataSource:data,
+        pageSize: 5,
+        showGoInput: true,
+        showGoButton: true,
+        callback: function(data, pagination) {
+            // template method of yourself
+            var html = template(data);
+            dataContainer.html(html);
+            Datashow(data)
+        }
+    })
+    
+  }
 let Datashow=(data)=>{
 
 let show1=document.querySelector("#show")
