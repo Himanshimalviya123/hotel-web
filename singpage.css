@@ -10,20 +10,22 @@ body{
 background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142));
     background-size: cover;
     display: flex;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     position: absolute;
+    width: 100%;
     /* left: 35%; */
 }    
 
 
 #sign{
-    width: 100%;
+    width: 50%;
     /* background-color: #bbb1e4; */
 
-    /* background: transparent; */
+    background: transparent;
     border: 2px solid rgb(128, 128, 128);
-    padding: 1.5rem 0rem 2rem 0rem;
+    /* padding: 1.5rem 0rem 2rem 0rem; */
     border-radius: 1rem;
+    align-items: center;
 
 }
 h1{
@@ -66,7 +68,7 @@ h1{
 
 #inp input{
     padding: 8px 20px 8px 12px;
-    width: 72%; 
+    width: 100%; 
     outline: none;
     font-size: 1rem;
     border-radius: 11px;
@@ -80,7 +82,7 @@ h1{
 }
 
 #btn input{
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
     outline: none;
     border-radius: 10px;
