@@ -12,14 +12,15 @@ background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142
     display: flex;
     margin-top: 4rem;
     position: absolute;
-    left: 35%;
+    /* left: 35%; */
 }    
 
+
 #sign{
-    width: 50%;
+    width: 100%;
     /* background-color: #bbb1e4; */
 
-    background: transparent;
+    /* background: transparent; */
     border: 2px solid rgb(128, 128, 128);
     padding: 1.5rem 0rem 2rem 0rem;
     border-radius: 1rem;

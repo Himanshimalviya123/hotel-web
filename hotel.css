@@ -299,6 +299,62 @@
     font-size: 16px;
     color: red;
 }
+#new-arrivals{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: dimgray;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 0%;
+    padding-bottom: 2%;
+
+}
+ #new-arrivals .best-seller div{
+    width:298px;
+    height:500px;
+ border: 1px solid black; 
+   color: aliceblue;
+   background-color:#001238;;
+   margin-top: 40px;
+    
+} 
+#new-arrivals .best-seller{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+#new-arrivals .best-seller div img{
+    width:296px;
+    height: 300px;
+    
+}
+#new-arrivals .best-seller div p{
+    border: 1px solid red;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e7bf88;
+    margin-top: 10px;
+}
+#new-arrivals .best-seller  div img{
+
+    border-radius: 100px;
+    transition: all 3s ease ;
+   
+}
+#new-arrivals .best-seller  div img:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+  
+
+}
 
 /* /------------------Roboto----------------------/ */
 
@@ -431,96 +487,9 @@
 #lux-room p{
     margin-top: 22px;
 }
-/* -------------------------------team member ------------------------------------ */
-
-/* #sec3{
-    /* display: flex;
-    justify-content: space-evenly; */
-    /* background-color: gray;
-    flex-wrap: wrap;
-    padding: 2rem 0rem 2rem 0rem;
-    display: grid;
-    grid-template-rows: auto,auto,auto; */
-/* } */
-
-/* #team{ */
-    /* display: grid;
-    grid-template-columns: auto,auto,auto; */
-    /* justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    /* margin-top: 1rem; */
-    /* width: 30%;
-    /* height: 350px; */
-    /* padding: 1rem;
-    margin-bottom: 10px;
-
-    /* border-top-left-radius: 50px; */
-    /* border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    display: flex;
-    justify-content: center; */ */
-/* } */
-
-/* #team img{
-    height: 250px;
-    width: 100%;
-    border-radius: 5px 5px 0px 0px;
-}
-#roll{
-    display: grid;
-    padding: 5px 0px 10px 0px;
-} */
-/* 
-#details1{
-    display: flex;
-    justify-content: space-between;
-}
-
-#btn1{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-#btn1 button{
- padding: 8px 16px 8px 16px;
- border: none;
- border-radius: 10px;
-} */ 
  /* ====================================================sec 3======================== */
-#ooo h1{
-    font-size: 1.5rem;
-    color: red;
-    display: grid;
-    justify-content: center;
-    background-color: wheat;
-}
 
-  .t{
-    height: 500%;
-    width: 100%;
-    background-color: gray;
-    font-size:large;
-    font-weight: 400;
-    margin-top:20px ;
-    padding: 5px;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-
-
-} 
-.t-img{
-    width: 10%;
-    height: 100%;
-    margin-left: 50px;
-    margin-right: 5px;
-    border-top-left-radius: 10px;
-    border-top-left-radius: 10px;
-    margin-top: 20px;
- }
+   
 /* ------------scrollbar section starts here----/ */
 
  #scrollbar .slide div{
@@ -659,8 +628,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     background-color: lightslategray; 
-      background-color: black;
+     /* background-color:red;  */
+      /* background-color: black; */
      flex-direction: column;
      overflow: hidden !important;
 } 
@@ -670,7 +639,7 @@
     display: none;
 }
 #connect h3 i {
-   background-color: aliceblue;
+   /* background-color: aliceblue; */
    padding-top: 7px;
     padding-left: 10px;
     padding-right: 10px;
