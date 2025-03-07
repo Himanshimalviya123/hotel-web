@@ -11,6 +11,9 @@
         font-style: normal;
       
 }
+#bars{
+    display:none;
+}
 
 #container{
     display: flex;
@@ -520,48 +523,84 @@
  }
 /* ------------scrollbar section starts here----/ */
 
- #scrollbar .slider div{
+ #scrollbar .slide div{
     width: 225px;
-    height: 500px;
- border: 1px solid black;
+    /* height: auto; */
+ /* border: 1px solid black; */
      border-radius: 10px;
-    gap: 10px;
-    border: 1px solid black;
+    gap: 40px;
+    margin-top: 10%;
+    padding-top: 10%;
+    /* border: 1px solid black;  */
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+ grid-template-rows: repeat(5,225px);
  
 }
-#scrollbar{
-    background-color: lightcyan;
-    width: 100%;
-    overflow: hidden !important;
+ #scrollbar{
+     /* background-color: lightcyan;  */
+     width: 100%; 
+    overflow: hidden !important; 
 }
-#scrollbar .slider{
+#scrollbar .slide{ 
    display: grid;
-   grid-template-columns: repeat(7,225px);
+   grid-template-columns: repeat(5,225px);
+   grid-template-rows: repeat(5,225px);
+   grid-template-rows: repeat(5,225px);
    overflow-x: scroll;
    scrollbar-width: none;
+   /* padding-left: 10%; */
+    gap: 30px; 
    
    
-}
+ }
 #scrollbar .content div h1{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     padding-top: 50PX;
+    padding-left: 10%;
+    
 }
-#scrollbar .slider div img{
-    width: 225px;
-    height: 225px;
-    border-radius: 100%;
+#scrollbar .slide div img{
+    width: 230px;
+    height: 240px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
     transition: all 3s ease ;
+     /* border-radius: 100%;  */
+     gap: 20%;
+     /* position: absolute; */
+     display:grid;
+     grid-template-columns: repeat(5,225px);
+     grid-template-rows: repeat(5,225px);
+    
+}
+ #scrollbar .slide div img:hover{
+     border-radius: 100%; 
+     transform: rotate(360deg); 
+
+
+ }  
+ #rastro{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+    margin-top: 2%;
+    /* border-radius: 50%; */
 
 }
-#scrollbar .slider div img:hover{
-    border-radius: 100%;
-    transform: rotate(360deg);
 
-
-}  
+#rastro h6{
+    margin-left: 4rem;
+    font-size: 16px;
+    color: red;
+}
 
 /* --------------------------------------------------- */
 
@@ -614,20 +653,20 @@
 /* ====fourth section end=====/ */ */
 
 /* ---------------------------------------------------------- */
-#connect{
+ #connect{
     width: 100%;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-     /* background-color: lightslategray; */
-     background-color: black;
+     background-color: lightslategray; 
+      background-color: black;
      flex-direction: column;
      overflow: hidden !important;
-}
+} 
 
 
-#connect br{
+ #connect br{
     display: none;
 }
 #connect h3 i {
@@ -643,9 +682,9 @@
 
 #connect h3 i:hover{
     color: brown;
-}
+} 
 
-#connect h1 i{
+ #connect h1 i{
     color: antiquewhite;
     transition: all 3s ease-in;
     font-size: small;
@@ -667,20 +706,49 @@
      height:auto;
      font-size: 10px;
    
- }
+ } 
  /* /=========footer end ======/ */
+ #rastronant {
+    /* background-color: aqua; */
+    background-image: url("rolls3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    
+   }
+   
+   #rastronant input{
+        display: flex;
+       flex-wrap: nowrap;
+    } 
+   
  
 
-
 /* /-------swiper animation----------------------/ */
-#container{
-display:none; 
-}
+
 @media (max-width:450px) {
     body{
         width: 100%;
         box-sizing: border-box;
         /* padding-top: 20%; */
+    }
+    #bars{
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        font-size: 40px;
+        color:black;
+        z-index: 50;
+        display:block;
+        /* padding-right: 5%; */
+
+    }
+    #inp{
+        display:none;
     }
     #container{
         padding: 0%;
