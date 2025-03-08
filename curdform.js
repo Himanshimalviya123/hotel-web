@@ -19,16 +19,13 @@ let fetchData= async ()=>{
     paginationdata(filterData)
   }
 
-  let paginationdata=()=>{
-    $('#demo').pagination({
+  let paginationdata=(data)=>{
+    $('#showww').pagination({
         dataSource:data,
         pageSize: 5,
         showGoInput: true,
         showGoButton: true,
         callback: function(data, pagination) {
-            // template method of yourself
-            var html = template(data);
-            dataContainer.html(html);
             Datashow(data)
         }
     })

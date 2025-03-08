@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="hotel.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <input type="checkbox" id="inp">
+<label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
+<header>
+    <nav>
+        
+<!-- ------------------------------------container------------------------- -->
+
+        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
+            <div>
+                <img src="/image/logo2.png" alt="">
+            </div>
+           
+            <ul>
+                
+                <a href="#"><li onclick="home1()"><h1>HOME</h1></li></a>
+                <!-- <a href="#"><li >HOME</li></a> -->
+                <a href="#"><li><h1>ROOMS</h1></li></a>
+                <a href="#"><li><h1>RASTURANT</h1></li></a>
+                <a href="#"><li><h1>ABOUT</h1></li></a>
+                <a href="#"><li><h1>CONTACT</h1></li></a>
+                <a href="singpage.html"><li><h1>LOGIN</h1></li></a>
+                
+            </ul>
+
+            <input type="text" placeholder="Search">
+            
+        </div>
+        
+    </nav>
+    </header>
+    <!-- ------------------------------------list------------------------- -->
+    <!-- <div id="list" style="display: none;">
+        <ul>
+            <li>Rolls Royce</li>
+            <li>BMW</li>
+            <li>Audi</li>
+        </ul>
+    </div> -->
+
+    <section>
+          <!-- -------------Swiper ---------------->
+  <div class="swiper mySwiper card-box">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <img src="hotel1.jpg" alt="">
+         </div>
+
+      <div class="swiper-slide">
+        <img src="carousel-1.jpg" alt="">
+     </div>
+
+
+      <div class="swiper-slide">
+          <img src="p17.jpg" alt="">
+      </div>
+
+     <div class="swiper-slide">
+        <img src="p1.jpg" alt="">
+     </div>
+
+     <div class="swiper-slide">
+      <img src="p19.jpg" alt="">
+     </div>
+
+
+      </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+        </div>
+      
+    </section>
+
+  <!-- ------------------------------------ret------------------------- -->
+    <div id="ret">
+      <h2>Discover A Brand <br>Luxurious Hotel</h2>
+      
+      <!-- <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
+      <span onclick="booknow()">RESERVE NOW!</span >
+    </div>
+  <!-- ------------------------------------box-1------------------------- -->
+    <div id="box-1">
+        <div><marquee direction="flip-left">WE SPECIALIZE IN THE SUPPLY OF DELICIOUS AND BEAUTIFUL PRESENTED DISHES FOR ANY OCCASION</marquee> <span id="type">  </span> </div>
+        <!-- get 75% Discount -->
+    </div>
+   <!-- ------------------------------------box4------------------------- -->
+   
+
+ <!--------------------------------------room--------------------------->
+<section>
+    
+    <div id="room" >
+        <h1>SEE OUR ROOM</h1>
+        <!-- <h1>ROOM</h1> -->
+    </div>
+</section>
+
+ <!--------------------------------------Roboto--------------------------->
+
+ <section id="sec1">
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-1.jpg" alt="">
+            <h1 align="center"><b>LUXURY ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6  align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+    <!-- <button onclick="">Book Now!<a href="curdform.html"></a></button> -->
+     <a href="curdform.html">BOOK NOW!</a>
+</div>
+    </div>
+
+
+
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-5.jpg" alt="">
+            <h1 align="center"><b>FAMILY ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6  align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+        <a href="curdform.html">BOOK NOW!</a>
+    </div>
+    </div>
+
+
+
+
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="room-3.jpg" alt="">
+            <h1 align="center">DELUX ROOM</h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6  align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+        <a href="curdform.html">BOOK NOW!</a>
+
+    </div>
+    </div>
+
+
+    
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-4.jpg" alt="">
+            <h1 align="center"><b>DELUX ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6  align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+        <a href="curdform.html">BOOK NOW!</a>
+    </div>
+    </div>
+
+
+
+
+    
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="our-5.jpg" alt="">
+            <h1 align="center"><b>FAMILY ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6 align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+        <a href="curdform.html">BOOK NOW!</a>
+    </div>
+    </div>
+
+
+
+    
+    <div id="Roboto"  data-aos="zoom-in"   data-aos-duration="3000">
+        <div id="car-img">
+            <img src="hotel1.jpg" alt="">
+            <h1 align="center"><b>LUXURY ROOM</b></h1>
+        </div>
+    <div id="rol">
+        <h5>cum sociis natoque penatibuset magnis dis part urient montes,nascetur ridiculus mus.vestib ulum id ligula porta felis euis</h5>
+        <h5> $50 / Per Day</h5>
+    </div>
+    <div id="details">
+        <h6 align="center">For More Details Click Here</h6>
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+      <div id="btn">
+        <a href="curdform.html">BOOK NOW!</a>
+    </div>
+    </div>
+ </section>
+ <!---====================footer end=======================-->
+<section id="scrollbar">
+    <div id="rastro"><h1 align="center">RASTURANT</h1></div>
+    <div id="rastronant">
+    
+        <div class="content">
+            <!-- <div> <h1>FOOD</h1></div><br><br><br> -->
+        <div class="slide">
+            <div > <img src="food1.jpg" alt="jpg" data-aos="zoom-in"></div>
+            <div> <img src="food2.jpg" alt="omg" data-aos="zoom-in"></div>
+            <div><img src="food3.jpg" alt="" data-aos="zoom-in"></div>
+            <div><img src="food4.jpg" alt="milk" data-aos="zoom-in"></div>
+            <div><img src="food5.jpg" alt="milkwith" data-aos="zoom-in"></div>
+            <div><img src="food6.jpg" alt="hot" data-aos="zoom-in"></div>
+            <div> <img src="food2.jpg" alt="omg" data-aos="zoom-in"></div>
+            <div><img src="food3.jpg" alt="" data-aos="zoom-in"></div>
+            <div><img src="food4.jpg" alt="milk" data-aos="zoom-in"></div>
+            
+            <div><img src="food6.jpg" alt="hot" data-aos="zoom-in"></div>
+            <div > <img src="food1.jpg" alt="jpg" data-aos="zoom-in"><h1>buy</h1></div>
+            <div> <img src="food2.jpg" alt="omg" data-aos="zoom-in"></div>
+            <div><img src="food3.jpg" alt="" data-aos="zoom-in"></div>
+            <div><img src="food4.jpg" alt="milk" data-aos="zoom-in"></div>
+            <div><img src="food5.jpg" alt="milkwith" data-aos="zoom-in"></div>
+           
+        </div>
+    
+           <a href="#"><p>Find a hotel</p></a>
+    </div>
+    </div>
+    </section>
+
+<!-- ---------------------room2------------------ -->
+ 
+ <section>
+    <div id="room2"><h1>ABOUT</h1></div>
+    <div id="new-arrivals" >
+        
+    
+
+        
+             <div class="best-seller">
+                 <div><img src="about-4.png" alt=""><br>
+                    <h1 align="center">JOY MAURAK</h1>
+              <h5>know use Lorem Ipsum as their default model text, and a search for<br> 'lorem ipsum' will uncover many web sites still in their infancynow <br>use Lorem Ipsum as their default model text.
+              </h5><br>
+                 
+                 <center><p>VIEW</p></center>
+                 </div>
+
+                 <div><img src="about-5.png" alt=""><br>
+                    <h1 align="center">JOY MAURAK</h1>
+                     <h5>know use Lorem Ipsum as their default model text, and a search for<br> 'lorem ipsum' will uncover many web sites still in their infancynow <br>use Lorem Ipsum as their default model text.
+                     </h5><br>
+                    
+                     <center><p>VIEW</p></center>
+                 </div>
+                 <div><img src="about-4.png" alt=""><br>
+                    <h1 align="center">JOY MAURAK</h1>
+                     <h5>know use Lorem Ipsum as their default model text, and a search for<br> 'lorem ipsum' will uncover many web sites still in their infancynow <br>use Lorem Ipsum as their default model text.</h5>
+                     <br>
+                 <center><p>VIEW </p></center>
+                 </div>
+       
+</div>
+</section>
+
+
+ <!-- ================================================== -->
+ 
+   
+  
+
+
+
+
+
+
+ <!-- <section id="scrollbar">
+    <div class="content">
+            <div> <h1>RASTURANT</h1></div><br><br><br>
+        <div class="slider">
+            <div> <img src="food1.jpg" alt="jpg">
+               
+            </div>
+            <div> <img src="food2.jpg" alt="omg"></div>
+            <div><img src="food3.jpg" alt=""></div>
+            <div><img src="food4.jpg" alt="milk"></div>
+            <div><img src="food5.jpg" alt="milkwith"></div>
+            <div><img src="food6.jpg" alt="hot"></div>
+           
+        </div>
+    </div>
+</section> -->
+<!-- ============================================================ -->
+<h1 align="center" >CONTACT</h1>
+<div id="box4">
+
+    <div   data-aos="flip-left" id="box3">
+
+    Add Location
+    <input type="text" placeholder="Enter Location" data-aos="zoom-in"  id="add">
+    <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+
+    Enter Pickup date
+    <input type="date" placeholder="Enter Date" data-aos="zoom-in" >
+    
+    Enter Drope date
+    <input type="date" placeholder="Check In" data-aos="zoom-in" >
+    
+    <!-- Enter Cars
+    <input type="text" placeholder="Cars"  id="car3">
+    <i class="fa-solid fa-angle-down" onclick="car()"></i> -->
+    
+    <a href="#"><p>Find a hotel</p></a>
+</div>
+</div>
+
+
+
+ <!--------===============footer starts here================---->
+<footer id="connect">
+    <center>
+        <h3 > <a href="../project webdev/index.html"><i class="fa-brands fa-facebook"></i></a>
+            <a href="../project webdev/about.html"><i class="fa-brands fa-github"></i></a>
+            <a href="../project webdev/index.html"><i class="fa-brands fa-instagram"></i></a>
+           
+        </h3><br><br><br>
+       <h1>
+       <i class="fa-solid fa-phone">+01 1234567890</i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa-solid fa-envelope">&nbsp;&nbsp;demo@gmail.com</i><br><br><br>
+      </h1>
+      <div>
+         <input type="email" placeholder="YOUR E-MAIL">
+      </div>
+      
+            
+    
+
+  
+      
+    
+</footer>
+<!-- ---------------------swiper------------------ -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="first.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="vanta.js"></script>
+</body>
+</html>

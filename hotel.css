@@ -719,9 +719,20 @@ gap: 20px;
     #inp{
         display:none;
     }
-    #container{
-        padding: 0%;
-    }
+    #inp:checked~ header nav #container ul{
+        display: block;
+        position: absolute;
+        top: 44px;
+        right:1%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color:transparent;
+       color: #001238;
+     }
+
+     #inp:checked~main{
+        margin-top: 50px;
+     }
     
     #container ul{
         display: none;
