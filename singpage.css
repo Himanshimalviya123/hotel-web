@@ -4,10 +4,8 @@
     margin: 0;
 }
 #ani{
-    /* background-image: url("images111.jpeg"); */
-    /* background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142)); */
-/* background-color:(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142)) ; */
-background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142));
+/* background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142)); */
+background-image: url(slide1.jpg);
     background-size: cover;
     display: flex;
     /* margin-top: 4rem; */
@@ -21,7 +19,8 @@ background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142
 
 
 #sign{
-    width: 50%;
+    width: 40%;
+    height: 80vh;
     /* background-color: #bbb1e4; */
 
     background: transparent;
@@ -29,12 +28,14 @@ background-color:linear-gradient(rgb(63,142,148),rgb(163,163,210),rgb(59,105,142
     /* padding: 1.5rem 0rem 2rem 0rem; */
     border-radius: 1rem;
     align-items: center;
+    box-shadow: -2px  -2px 8px 8px rgb(15, 15, 71) ;
+
 
 }
 h1{
     display: flex;
     justify-content: center;
-    color: white;
+    color:rgb(168, 162, 162);
 }
 
 #Login-b{
@@ -66,10 +67,14 @@ h1{
     justify-content: center;
     gap: 1rem;
     width: 60%;
+    color: #c3c0c0;
+    
+
 }
 #inp a{
-    color:#0740f1;
-    width: 10%;
+    color:#132458;
+    width: 20%;
+    height: 5%;
 }
 
 #inp input{
@@ -79,23 +84,30 @@ h1{
     font-size: 1rem;
     border-radius: 11px;
     border: 1px solid gray;
+    background-color: rgb(233, 235, 239);
+    color: #010f38;
+   
 }
 
 #btn{
     display: grid;
     justify-content: center;
     margin-top: 16px;
+    width: 20px;
+    height: 20px;
 }
 
 #btn input{
     /* padding: 10px; */
-    width: 100%;
+    width: 30vh;
+    height: 40px;
     outline: none;
     border-radius: 10px;
     border: none;
-    background-color: #0740f1;
+    background-color: #010f38;
     color: white;
     font-size: 16px;
+
 }
 
 #btn span{

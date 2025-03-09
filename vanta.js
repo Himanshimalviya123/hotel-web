@@ -22,8 +22,8 @@ VANTA.NET({
     scaleMobile: 1.00,
     color: 0x7a7c75
   })
-  // VANTA.WAVES({
-  //   el: ".form-container",
+  // VANTA.NET({
+  //   el: "#log",
   //   mouseControls: true,
   //   touchControls: true,
   //   gyroControls: false,
@@ -31,11 +31,11 @@ VANTA.NET({
   //   minWidth: 200.00,
   //   scale: 1.00,
   //   scaleMobile: 1.00,
-  //   color: 0x604949
+  //   color: 0x2f2f2b,
+  //   backgroundColor: 0x3c3015
   // })
-  
   VANTA.NET({
-    el: "#ani",
+    el: "#log",
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
@@ -43,7 +43,10 @@ VANTA.NET({
     minWidth: 200.00,
     scale: 1.00,
     scaleMobile: 1.00,
-    maxDistance: 22.00,
-    spacing: 16.00
+    color: 0xd0d65,
+    spacing: 13.00
   })
+  
+ 
+  
   
