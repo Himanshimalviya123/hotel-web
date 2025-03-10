@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curdtable.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.css
 
 
@@ -10,11 +11,11 @@
     ">
     <title>Document</title>
 </head>
-<body onload="fetchData()">
-    Search: <input type="text" id="Searchinp" oninput="searchh()">
-    <table border="2" cellspacing="10px">
+<body onload="fetchData()" id="table">
+    Search: <input type="text" id="Searchinp" oninput="searchh()"><br><br>
+    <table border="2" cellspacing="10px" id="table-head">
         <thead>
-            <i><b><tr>
+            <i><b><tr class="tr-contain">
                 <th> name </th>
                 <th> email</th>
                 <th>mobile </th>

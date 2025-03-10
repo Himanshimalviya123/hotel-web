@@ -317,6 +317,10 @@
    color: aliceblue;
    background-color:#001238;;
    margin-top: 40px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
     
 } 
 #new-arrivals .best-seller{
