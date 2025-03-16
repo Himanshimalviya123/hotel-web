@@ -1,21 +1,6 @@
 {
   "hotel": [
     {
-      "name": "priya",
-      "email": "priya@123gmail.com",
-      "mobile": 1265734567,
-      "address": "chetak",
-      "city": "bhopal",
-      "state": "mp",
-      "pincode": 201023,
-      "country": "india",
-      "datein": "03-11-25",
-      "dateout": "05-11-25",
-      "person": 2,
-      "price": 500,
-      "id": "24b8"
-    },
-    {
       "name": "sonu ",
       "email": "malviyasonu12@gmail.com",
       "mobile": "021574572237",
@@ -46,8 +31,7 @@
       "id": "1f16"
     },
     {
-      "id": "176d",
-      "name": "himanshi malviya",
+      "name": "himanshi",
       "email": "maiyanshi14@gmail.com",
       "mobile": "43572316486",
       "address": "ashoka garden",
@@ -58,22 +42,8 @@
       "datein": "2025-03-02",
       "dateout": "2025-03-05",
       "person": "2",
-      "price": 500
-    },
-    {
-      "id": "feae",
-      "name": "monu ",
-      "email": "monu14@gmail.com",
-      "mobile": "4357254464",
-      "address": "ashoka garden",
-      "city": "jaipur",
-      "state": "mp",
-      "pincode": "6457686",
-      "country": "India",
-      "datein": "2025-03-02",
-      "dateout": "2025-03-05",
-      "person": "2",
-      "price": 500
+      "price": 500,
+      "id": "176d"
     },
     {
       "id": "6543",
@@ -121,34 +91,19 @@
       "id": "8c87"
     },
     {
-      "id": "c597",
-      "name": "Himanshi",
-      "email": "malviyahimanshi14@gmail.com",
-      "mobile": "02157457216",
-      "address": "ashoka garden",
-      "city": "",
-      "state": "",
-      "pincode": "6457686",
-      "country": "",
-      "datein": "",
-      "dateout": "",
-      "person": "2",
-      "price": 500
-    },
-    {
-      "id": "e7a3",
-      "name": "sakshi",
-      "email": "malviyahimanshi14@gmail.com",
-      "mobile": "02157457216",
-      "address": "ashoka garden",
+      "name": "anita malviya",
+      "email": "malviyaanita14@gmail.com",
+      "mobile": "749832791751",
+      "address": "jabalpur",
       "city": "bhopal",
       "state": "mp",
       "pincode": "6457686",
       "country": "India",
       "datein": "2025-03-18",
-      "dateout": "2025-03-20",
-      "person": "4",
-      "price": 500
+      "dateout": "2025-03-21",
+      "person": "2",
+      "price": 500,
+      "id": "7685"
     }
   ]
 }
