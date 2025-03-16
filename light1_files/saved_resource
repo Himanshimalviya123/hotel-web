@@ -1,0 +1,43 @@
+
+var ftGUID_9153569="61686E7DF1A019";
+var ftConfID_9153569="0";
+var ftParams_9153569="ftOBA=1&ft_domain=pngtree.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fpngtree.com%2F&gdpr=0&ftClick=https://adclick.g.doubleclick.net/aclk?sa=L&ai=Ccd5170LUZ6eAO6DP9fwPv4n3uQ-I76j0XN69t5avAcCNtwEQASAAYOWCgIDEDoIBF2NhLXB1Yi0xMzM2NjcwODk5MTczMzIzyAEJqAMByAMCqgTiAU_Q_z7Jd6ROZd1X1n6wXstKieYLjt7dws-1jLHo2b3fRXBti57GCwTfxTmkyjWtTvA0etvP5VM-eh3D2t0PhtRM2wdgzuW9xS0hsVn2Ax4Yv7bRRwuOT5nyQt1sORLZTeTwaiyEij5Ud-mfjg2ZW_JKvfAYYrFmtw5zBLGACqA32Ai4H07Itk76DxeRGqE6bZzBx8pO9nL0EQJmpxZzEQzUiaGbop72TVsORYudNsrpd3S1fF95N1HyK66vDqAUR6-8cAS4AiL6jKQUixQckek1UCEpa5IRSqEWZfwQdiJTVn2ABvbIwfvPmoOYTqAGIagHpr4bqAeW2BuoB6qbsQKoB_-esQKoB9-fsQKoB62-sQLYBwDSCCQIgGEQATICigI6C4BAgMCAgICgqIACSL39wTpYsJmI0-mJjAP6CwIIAYAMAeoNEwjQ7ZbT6YmMAxWgZ50JHb_EPffQFQGAFwGyFwIYDA&num=1&sig=AOD64_0HHNni41cPVdozw4zixNM0fBbCUg&client=ca-pub-1336670899173323&adurl=https://exch.quantserve.com/r?&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.750334164&rtbip=103.229.8.136&rtbdata2=EAA6E2h0dHBzOi8vcG5ndHJlZS5jb21aKDVKdkVXcmFmeEF6X25KRU00OG5mV09XZHdnM19sWlJaNjg5ZkFoX1WAAfmbsu4NugEbQ0FFU0VPcHBnTE9NYmJBdHNicnVVUFhLaFg0wAHI1gXIAdTzlanZMtoBFnlsdjJ0RG9HTmxKUXZaZ2tZTnJ4UVGwAgjIAgDQAs7hhvv4n_fMqQHoAoEF8gIPCK7dMBDwrfrl99G15LkB8gINCIEFEIHhtfuqpdfEXfgCAIoDFjAucHViLTEzMzY2NzA4OTkxNzMzMjOYAwCoAwCyAxAkCUBDABwAAAAAAAAAAAAAugMSCWpE4Qf_Xnj7EZufn-rC4pyEwgMSCc1FNE1JZFxQEdcYlbf1ekivyAOWgICGAdgD1OHk5QLiAw9wLTFSWXhlUFhUOWJDUzLqAwUI2AUQWvIDBjQ5MjAwMfgDAIAEmDSKBAI3N5oEEgmvQ6gJvFPWXBH1I_mQdmnZtKIEEglqROEH_154-xGbn5_qwuKchKoEEglqROEH_154-xGbn5_qwuKchLgE0AXQBAzyBAJJToAFAYoFAJAFAbgFAMAF1OHk5QLIBfW6qQTSBQYIBBACGAboBQWaBhQKEgmvQ6gJvFPWXBH1I_mQdmnZtKAGAKgG7-e-zwG1Bn0yKDq6BmQKAklOEgJDRxgAIgZyYWlwdXIqBjQ5MjAwMTojcmVsaWFuY2UlMjBqaW8lMjBpbmZvY29tbSUyMGxpbWl0ZWRaI3JlbGlhbmNlJTIwamlvJTIwaW5mb2NvbW0lMjBsaW1pdGVkyQZrKBLUEUDFCdAGONgGOOIGP19mcC5ldmVudC5DQyBQYWlkIENvbnZlcnNpb24sX2ZwLmV2ZW50LkNDIFRyaWFsIENvbnZlcnNpb24sX29yX-oGEWh0dHBzOi8vYWRvYmUuY29t8QYBABLUEUDFCfgGA4AHAA&redirecturl3=&ft_custom=qqaHN6eOnkKdprtUpZCWboqEg32Cm7jRvNw=&site_url=pngtree.com&cachebuster=855025.6537004955";
+var ftKeyword_9153569="";
+var ftCustom_9153569="qqaHN6eOnkKdprtUpZCWboqEg32Cm7jRvNw=";
+var ftSection_9153569="";
+var ftSegment_9153569="";
+var ftSegmentList_9153569=[];
+var ftRuleMatch_9153569="0";
+var ftTimestamp_9153569="1741964680";
+var ftGeoC2_9153569="in";
+var ftGeoState_9153569="cg";
+var ftGeoCity_9153569="bhilai marshalling yard";
+var ftISP_9153569="reliance jio infocomm limited";
+var ftSpeed_9153569="mobile";
+var ftConnType_9153569="mobile";
+var ftDMA_9153569="-1";
+var ftLong_9153569="81.46";
+var ftLat_9153569="21.22";
+var ftPostal_9153569="490025";
+var ftTimeZone_9153569="+530";
+var ftMobileCarrier_9153569="jio";
+var ftImp9153569 = {};
+ftImp9153569.privacy = "x";
+ftImp9153569.guidAge = "114";
+ftImp9153569.impID = "B034945E-AB15-8E96-6EAB-AD80F0C6D9C8";
+ftImp9153569.duid = "FT:61686E7DF1A019";
+
+ftImp9153569.ft_tpplid = "";
+ftImp9153569.ft_c = {};
+ftImp9153569.gdpr = "0";
+ftImp9153569.gdpr_consent = "";
+ftImp9153569.gdpr_pd = "";
+ftImp9153569.oob_consent = "";
+ftImp9153569.gdprStoredConsent = "";
+ftImp9153569.us_privacy = "";
+ftImp9153569.gpc = "";
+
+ftImp9153569.jsAppend = "1";
+var ftCreativeId_9153569 = "4600365";
+(function(){var tag=document.getElementById("ft_servedby_9153569")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m9153569";js.setAttribute("name","ftscript_m9153569");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("9153569");
+

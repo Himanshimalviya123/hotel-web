@@ -1,0 +1,398 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: "Oleo Script", system-ui;
+    scroll-behavior: smooth;
+    
+}
+
+/* /------------================================================================================================---/ */
+/* /------------==================================navbar section starts here===================================================-->/ */
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background:transparent; 
+    position: absolute;
+    z-index: 5;
+}
+
+#container h2{
+    
+    font-weight: bold;
+    text-decoration: underline;
+    width: 115px;
+    height: 115px;
+    border: 5px dashed rgb(254, 251, 251);
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(248, 243, 243);
+    transition: all 3s ease-in-out;
+}
+#container h2:hover{
+    color: rgb(191, 165, 36);
+    transform: rotate(360deg);
+    border-radius: 100px;
+    font-size: 35px;
+}
+#container h2 span{
+    color: rgb(156, 130, 25);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h2 span:hover{
+    color: rgb(14, 14, 13);
+}
+#container  ul {
+    display: flex;
+    gap: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#container  a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: "Lobster", serif;
+}
+#container li{
+    list-style: none;
+}
+#container  a:hover{
+    text-decoration: underline;
+    color: rgba(188, 8, 8, 0.737);
+}
+
+#container input{
+    outline-color: #f70707;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container h1 span{
+    width: 60px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.612);
+    color: aliceblue;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 20px;
+}
+#container h1 span:hover{
+    background: red;
+    color: #000000;
+}
+
+/* /------------====================================navbar section end============================================================---/ */
+/* /------------==================================first section starts here===================================================-->/ */
+/* ///-------------------------============-swiper-slider========================----------------------- */
+.swiper {
+    width: 100%;
+    height: auto;
+    background-color: #0f0e0e;
+    flex-wrap: wrap;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #0f0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height:100vh;
+    object-fit: cover;
+    
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #161515;
+    opacity: 1;
+    background: rgba(235, 229, 229, 0.811);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+/* /------------====================================first section end============================================================---/ */
+/* /------------==================================second section starts here===================================================-->/ */
+
+#ret{
+     flex-wrap: wrap; 
+     justify-content: center; 
+     position:absolute;
+     top: 13rem;
+     width: 60%;
+     left: 3rem;
+     z-index: 3;
+     /* text-align: center; */
+}
+#ret h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: aliceblue;
+    
+}
+#ret h1 span{
+    color: #f70707da;
+    text-decoration: underline;
+}
+#ret p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    /* color: rgb(245, 237, 237); */
+    color: bisque;
+}
+#ret button{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #e7dedeee;
+    border: none;
+    font-size: 23px;
+}
+#ret button a{
+   text-decoration: none;
+   font-size: 1.6rem;
+   color: rgb(25, 25, 26);
+} 
+#ret button:hover{
+    background-color: #df0f0fa6;
+}
+#ret button:hover{
+    color: #e3dbdb;
+}
+#ret .btn2{
+    background-color: #f7070799;
+    color: #0f0e0e;
+}
+/* /------------====================================second section end============================================================
+/* /------------------Roboto----------------------/ */
+
+#sec1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 2rem 0rem;
+    background-image: url(hotel1.avif);
+}
+
+#Roboto{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    width: 30%;
+    /* height: 350px; */
+    padding: 1rem;
+    margin-bottom: 10px;
+
+    /* border-top-left-radius: 50px; */
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#Roboto img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+#rol{
+    display: grid;
+    padding: 5px 0px 10px 0px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#btn a{
+ padding: 8px 16px 8px 16px;
+ border: none;
+ border-radius: 10px;
+ width: 30%;
+ height: 50%;
+ } 
+/* #book a{
+    background-color:#d4d1d1;
+    padding: 10px 16px;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+#book a:hover{
+    background-color: #fff;
+    color: black;
+} */
+
+  /* ==================================================== */
+  #contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+}
+#contact p{
+   font-size: 20px;
+   color: aliceblue;
+}
+#contact center input{
+        width:400PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+#contact .signup h1 a{
+    color: aliceblue;
+    /* text-decoration: none; */
+    font-size: 30px;
+    
+}
+
+#contact .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contact .signup  i{
+     margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+     color: aliceblue;
+     border: 5px solid aliceblue;
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h1{
+    font-size: 32px;
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: rgb(243, 31, 3);
+}
+#contact .signup a{
+    /* text-decoration: none; */
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#inp{
+    display: none;
+} 
+ #bars{
+    display: none;
+}
+
+/* /<!--=======================[FOOTER end HERE]==============-->/ */
+/* ==============================( media uery starts)======================================= */
+@media (max-width:450px) {
+    body{
+        width: 100%;
+        box-sizing: border-box;
+        /* padding-top: 20%; */
+    }
+    #bars{
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        font-size: 40px;
+        color:black;
+        z-index: 50;
+        display:block;
+        /* padding-right: 5%; */
+
+    }
+    #inp{
+        display:none;
+    }
+    #inp:checked~ header nav #container ul{
+        display: block;
+        position: absolute;
+        top: 44px;
+        right:1%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color:transparent;
+       color: #001238;
+     }
+
+     #inp:checked~main{
+        margin-top: 50px;
+     }
+    
+    #container ul{
+        display: none;
+        padding: 0%;
+    }
+
+    #container input{
+        display: none;
+    }
+    #container img{
+        height: 1.5rem;
+        margin-left: -11rem;
+    }
+    #idx{
+        display: flex;
+        font-size: 2rem;
+        margin-left: 24rem;
+        margin-top: 1rem;
+        color:#fff;
+    }
+}

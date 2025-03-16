@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +17,26 @@
 </head>
 
 <body>
-    <input type="checkbox" id="inp">
+    <!-- <input type="checkbox" id="inp">
 <label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
 <header>
     <nav>
-        
+        -->
 <!-- ------------------------------------container------------------------- -->
 
-        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
+
+        <!-- <div id="container" data-aos="fade-right"  data-aos-duration="3000">
             <div>
                 <img src="/image/logo2.png" alt="">
             </div>
-           
+            <h1>
+                <img src="https://img.freepik.com/free-vector/golden-elegant-logo-flat-style_52683-17266.jpg?ga=GA1.1.1806070930.1741018978&semt=ais_hybrid" alt="">
+            </h1>
             <ul>
                 
                 <a href="#"><li onclick="home1()"><h1>HOME</h1></li></a>
-                <!-- <a href="#"><li >HOME</li></a> -->
-                <a href="#"><li><h1>ROOMS</h1></li></a>
+                <a href="#"><li >HOME</li></a> -->
+                <!-- <a href="#"><li><h1>ROOMS</h1></li></a>
                 <a href="#"><li><h1>RASTURANT</h1></li></a>
                 <a href="#"><li><h1>ABOUT</h1></li></a>
                 <a href="#"><li><h1>CONTACT</h1></li></a>
@@ -46,7 +49,8 @@
         </div>
         
     </nav>
-    </header>
+    </header> -->
+    <!-- ================================================================================================== -->
     <!-- ------------------------------------list------------------------- -->
     <!-- <div id="list" style="display: none;">
         <ul>
@@ -55,7 +59,39 @@
             <li>Audi</li>
         </ul>
     </div> -->
-
+    <!-- ===========================================&&&&&&&&&&&&&&&&&&&&&&&&================================== -->
+    <input type="checkbox" id="inp"> 
+    <label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
+      <header id="heading">
+        <nav>
+            <div id="container">
+              
+                <div>
+                    <h2>CAR<span>R<br>EN</span>TAL</h2>
+                  
+                </div>
+              <ul data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="2500">
+                  
+                  <li><a href="">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="#services">SERVICES</a></li>
+                  <li><a href="cars.html">CARS</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+              <h1>
+              <span onclick="sing()">Signup</span>
+              <span onclick="logout()">Logout</span>
+            </h1>
+            </div>
+  
+           
+              
+              
+        </nav>
+      </header>
     <section>
           <!-- -------------Swiper ---------------->
   <div class="swiper mySwiper card-box">
@@ -92,13 +128,37 @@
     </section>
 
   <!-- ------------------------------------ret------------------------- -->
-    <div id="ret">
+    <!-- <div id="ret">
       <h2>Discover A Brand <br>Luxurious Hotel</h2>
       
-      <!-- <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
-      <span onclick="booknow()">RESERVE NOW!</span >
-    </div>
-  <!-- ------------------------------------box-1------------------------- -->
+       <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
+      <!-- <span onclick="booknow()">RESERVE NOW!</span > -->
+    <!-- </div>  -->
+     <!-- =============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7===================== -->
+      <!---------============================================-second section starts here===========================================--->
+<section>
+  
+
+    <div id="ret" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="2000">
+        <h1>Discover A Brand<br>
+          <span>Luxurious Hotel</span> </h1><br>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        <p
+        data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="2500">Whether you're planning a weekend getaway, a business trip, or just need a reliable ride for the day, we offers a wide range of vehicles to suit your needs.</p><br>
+        
+          <button class="btn1"  onclick="booknow()">Book A Rental!</a></button> 
+          <button class="btn2"><a href="#">Learn More</a></button>
+      </div>
+   
+  </section> 
+  <!------------====================================second section end================================
+   ------------------------------------box-1------------------------- -->
     <div id="box-1">
         <div><marquee direction="flip-left">WE SPECIALIZE IN THE SUPPLY OF DELICIOUS AND BEAUTIFUL PRESENTED DISHES FOR ANY OCCASION</marquee> <span id="type">  </span> </div>
         <!-- get 75% Discount -->
@@ -364,29 +424,77 @@
 
 
 
- <!--------===============footer starts here================---->
-<footer id="connect">
-    <center>
-        <h3 > <a href="../project webdev/index.html"><i class="fa-brands fa-facebook"></i></a>
-            <a href="../project webdev/about.html"><i class="fa-brands fa-github"></i></a>
-            <a href="../project webdev/index.html"><i class="fa-brands fa-instagram"></i></a>
-           
-        </h3><br><br><br>
-       <h1>
-       <i class="fa-solid fa-phone">+01 1234567890</i>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa-solid fa-envelope">&nbsp;&nbsp;demo@gmail.com</i><br><br><br>
-      </h1>
-      <div>
-         <input type="email" placeholder="YOUR E-MAIL">
-      </div>
-      
-            
-    
 
-  
-      
+
+ <!------------=================================footer starts here===================================================-->
+
+
+
+ <footer id="contact">
+    <center>
+       <div>
+           <p>Signup To Receive Offers & Updates</p><br>
+           <input type="email" placeholder="YOUR E-MAIL">
+        </div> <br><br>
+      </center>
+    <hr>
     
-</footer>
+        <div class="signup">
+            
+            <div>
+                <h1>IHCL</h1> <br>SUBSCRIBE FOR LATEST UPDATES<br><br><br>
+                <h3>FOR BOOKING CONTACT</h3>1-800-111-825<br>
+                <h3>CUSTOMER SUPPORT</h3>contacttaj@tajhotels.com<br>
+            <br><br>
+            <h3>reservation@ihcltata.com</h3>
+            <br><br>
+            <h3>website.feedback@tajhotels.com</h3>
+            </div>
+            <div>
+                <h1> <a href="contact.html">CONTACT US</a></h1><br><br>
+                <div>
+                    <p>Signup To Receive Offers & Updates</p><br>
+                    <input type="email" placeholder="YOUR E-MAIL">
+                    <button>SUBSCRIBE</button>
+                 </div> <br><br><br>
+                 <hr>
+                 ----------------------------------------------------------------<br>
+                 DESTINATION<br>
+                 ----------------------------------------------------------------
+                 <br>
+                 <hr>
+                 OUR BRANDS
+                <P>
+
+                </P>
+            </div>
+  
+            <div>
+              <h1> Quick links</h1><br><br>
+              <a href="">Destination</a><br>
+                 <a href="">Hotels</a> <br>
+                 <a href="">Dining</a> <br>
+                 <a href="">offers</a><br>
+                 <a href="">rastronant/bar</a><br>
+                 <a href="">membership</a><br>
+                 <a href="">Service</a>
+  
+                 <hr>
+                 <i class="fa-brands fa-instagram fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-facebook fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-twitter fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-google fa-fade"></i><br><br><br>
+              </div>
+              
+      </div>
+      ---------------------------------------------------------------------------------------------------------
+      DESTINATION<br>
+      ---------------------------------------------------------------------------------------------------------
+    
+  </footer> 
+  <!--=======================[FOOTER ENDS HERE]==============-->
+  
+ 
 <!-- ---------------------swiper------------------ -->
 
 

@@ -97,7 +97,9 @@ if(inppassword == "" && inppassword.length >= 8){
    location.href="rentcar.html";
    return false
 
- }else{
+ }
+ else
+ {
   alert("invalid name or password");
  }
   return false;
