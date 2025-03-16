@@ -9,57 +9,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Charm:wght@400;700&family=Jaro:opsz@6..72&family=Lobster&family=Oleo+Script:wght@400;700&family=Satisfy&family=Spicy+Rice&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <input type="checkbox" id="inp">
-<label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
-<header>
-    <nav>
-       
-<!-- ------------------------------------container------------------------- -->
-
-
-        <div id="container" data-aos="fade-right"  data-aos-duration="3000">
-            <div>
-                <h2>LUX<span>URIOUS<br>HOT</span>EL</h2>
+   
+   
+    <!-- ===========================================&&&&&&&&&&&&&&&&&&&&&&&&================================== -->
+    <input type="checkbox" id="inp"> 
+    <label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
+      <header id="heading">
+        <nav>
+            <div id="container">
               
-            </div>
-            <h1>
-                <img src="https://img.freepik.com/free-vector/golden-elegant-logo-flat-style_52683-17266.jpg?ga=GA1.1.1806070930.1741018978&semt=ais_hybrid" alt="">
+                <div>
+                    <h2>LUX<span>URY<br>HO</span>TEL</h2>
+                  
+                </div>
+              <ul data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="2500">
+                  <!-- <a href="#"><li onclick="home1()"><h1></h1></li></a> -->
+                  <li><a href="">DESTINATION</a></li>
+                  <li><a href="">HOTELS</a></li>
+                  <li><a href="">DINING</a></li>
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+              <h1>
+              <span onclick="sing()"> <a href="singpage.html">Signup</a></span>
+              <span onclick="logout()">Logout</span>
             </h1>
-            <ul>
-                
-                <a href="#"><li onclick="home1()"><h1>HOME</h1></li></a>
-                <!-- <a href="#"><li >HOME</li></a> -->
-                <a href="#"><li><h1>ROOMS</h1></li></a>
-                <a href="#"><li><h1>RASTURANT</h1></li></a>
-                <a href="#"><li><h1>ABOUT</h1></li></a>
-                <a href="#"><li><h1>CONTACT</h1></li></a>
-                <a href="singpage.html"><li><h1>LOGIN</h1></li></a>
-                
-            </ul>
-
-            <input type="text" placeholder="Search">
-            
-        </div>
-        
-    </nav>
-    </header>
-    <!-- ------------------------------------list------------------------- -->
-    <!-- <div id="list" style="display: none;">
-        <ul>
-            <li>Rolls Royce</li>
-            <li>BMW</li>
-            <li>Audi</li>
-        </ul>
-    </div> -->
-
+            <!-- <input type="text" placeholder="Search"> -->
+            </div>
+  
+           
+              
+              
+        </nav>
+      </header>
     <section>
           <!-- -------------Swiper ---------------->
   <div class="swiper mySwiper card-box">
@@ -94,21 +89,69 @@
         </div>
       
     </section>
+<!-- =============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7===================== -->
+   <!---------============================================-second section starts here===========================================--->
+<section>
 
-  <!-- ------------------------------------ret------------------------- -->
-    <div id="ret">
-      <h2>Discover A Brand <br>Luxurious Hotel</h2>
-      
-      <!-- <input type="button" value="Reserved Now!" onclick="return set3()"/> -->
-      <span onclick="booknow()">RESERVE NOW!</span >
-    </div>
-  <!-- ------------------------------------box-1------------------------- -->
+<div id="ret" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine"
+data-aos-duration="2000">
+<h1>Discover A Brand<br>
+  <span>Luxurious Hotel</span> </h1><br>
+                      
+    
+    
+     <span class="btn1" onclick="booknow()">BOOK A HOTEL NOW!</span >
+        <button class="btn2"><a href="#">Learn More</a></button>
+  </div> 
+</section>
+      <!---------============================================-second section starts here===========================================--->
+
+  <!------------====================================second section end================================
+   ------------------------------------box-1------------------------- -->
     <div id="box-1">
         <div><marquee direction="flip-left">WE SPECIALIZE IN THE SUPPLY OF DELICIOUS AND BEAUTIFUL PRESENTED DISHES FOR ANY OCCASION</marquee> <span id="type">  </span> </div>
         <!-- get 75% Discount -->
     </div>
    <!-- ------------------------------------box4------------------------- -->
    
+<!-- <--------------------- gits shop start----------------------------------->
+
+<section id="containt">
+
+    <h1 align="center">LATEST PRODUCT</h1>
+    <div class="maindiv">
+    <div class="one">
+            <img src="./image folder/food1.jpg" alt="food" width="50%"><br><br>
+            <div style="border: none;"> <h1>noodles</h1>  <h1>price$200</h1> </div>
+    </div>  
+          <div class="two"><img src="./image folder/food2.jpg" alt=" watch"  width="50%"><br><br><br><br>
+         <div style="border: none;"><h1>watch</h1> <h1>price$300</h1></div>
+          </div>
+        <div class="three"><img src="./image folder/food3.jpg" alt="" width="90%"><br><br><br><br>
+            <div style="border: none;"><h1>Teddy bear</h1> <h1>price$110</h1></div>
+        </div>
+        <div class="four"><img src="./image folder/food4.jpg" alt=""> <br><br><br><br>
+            <div style="border: none;"><h1>Flower Bouquet</h1><h1>price$45</h1></div>
+            </div>
+        <div class="five"><img src="./image folder/food5.jpg" alt=""><br><br><br><br>
+            <div style="border: none;"><h1>Teddy bear</h1><h1>price$95</h1></div>
+            </div>
+        <div class="six"><img src="./image folder/food6.jpg" alt=""><br><br><br><br>
+          <div style="border: none;"><h1>Flower Bouquet</h1> <h1>price70</h1></div>
+            </div>
+        <div class="seven"><img src="p7.png" alt="" width="70%"><br><br><br><br>
+            <div style="border: none;"><h1>watch</h1><h1>price$400</h1></div>
+            </div>
+        <div class="eight"><img src="p8.png" alt="" width="70%"><br><br><br><br>
+            <div style="border: none;"><h1>ring</h1><h1>price$450</h1></div>
+            </div>
+    
+        <button class="even" >VIEW ALL CONTACT</button>
+    </div>
+  </section>
+  <!-- <=======================gifts shop ends-======================> -->
 
  <!--------------------------------------room--------------------------->
 <section>
@@ -252,37 +295,10 @@
     </div>
  </section>
  <!---====================footer end=======================-->
-<section id="scrollbar">
-    <div id="rastro"><h1 align="center">RASTURANT</h1></div>
-    <div id="rastronant">
-    
-        <div class="content">
-            <!-- <div> <h1>FOOD</h1></div><br><br><br> -->
-        <div class="slide">
-            <div > <img src="./image folder/food1.jpg" alt="jpg" data-aos="zoom-in"></div>
-            <div> <img src="./image folder/food2.jpg" alt="omg" data-aos="zoom-in"></div>
-            <div><img src="./image folder/food3.jpg" alt="" data-aos="zoom-in"></div>
-            <div><img src=".image folder/food4.jpg" alt="milk" data-aos="zoom-in"></div>
-            <div><img src=".image folder/food5.jpg" alt="milkwith" data-aos="zoom-in"></div>
-            <div><img src="./image folder/food6.jpg" alt="hot" data-aos="zoom-in"></div>
-            <div> <img src="./image folder/food" alt="omg" data-aos="zoom-in"></div>
-            <div><img src="./image folder/food" alt="" data-aos="zoom-in"></div>
-            <div><img src="./image folder/food" alt="milk" data-aos="zoom-in"></div>
-            
-            <div><img src="./image folder/" alt="hot" data-aos="zoom-in"></div>
-            <div > <img src="./image folder/" alt="jpg" data-aos="zoom-in"><h1>buy</h1></div>
-            <div> <img src="./image folder/" alt="omg" data-aos="zoom-in"></div>
-            <div><img src="food3.jpg" alt="" data-aos="zoom-in"></div>
-            <div><img src="./image folder/" alt="milk" data-aos="zoom-in"></div>
-            <div><img src="./image folder/" alt="milkwith" data-aos="zoom-in"></div>
-           
-        </div>
+
     
           
-    </div>
-    </div>
-    </section>
-
+   
 <!-- ---------------------room2------------------ -->
  
  <section>
@@ -317,34 +333,6 @@
        
 </div>
 </section>
-
-
- <!-- ================================================== -->
- 
-   
-  
-
-
-
-
-
-
- <!-- <section id="scrollbar">
-    <div class="content">
-            <div> <h1>RASTURANT</h1></div><br><br><br>
-        <div class="slider">
-            <div> <img src="food1.jpg" alt="jpg">
-               
-            </div>
-            <div> <img src="food2.jpg" alt="omg"></div>
-            <div><img src="food3.jpg" alt=""></div>
-            <div><img src="food4.jpg" alt="milk"></div>
-            <div><img src="food5.jpg" alt="milkwith"></div>
-            <div><img src="food6.jpg" alt="hot"></div>
-           
-        </div>
-    </div>
-</section> -->
 <!-- ============================================================ -->
 <h1 align="center" >CONTACT</h1>
 <div id="box4">
@@ -362,42 +350,83 @@
     <input type="date" placeholder="Check In" data-aos="zoom-in" >
 
     
-    <a href="index.html"><p>Find a hotel</p></a>
+    <a href="index1.html"><p>Find a hotel</p></a>
 </div>
 </div>
 
 
 
- <!--------===============footer starts here================---->
-<footer id="connect">
-    
+
+
+ <!------------=================================footer starts here===================================================-->
+
+
+
+ <footer id="contact">
     <center>
-        <h3 > <a href="../project webdev/index.html"><i class="fa-brands fa-facebook"></i></a>
-            <a href="../project webdev/about.html"><i class="fa-brands fa-github"></i></a>
-            <a href="../project webdev/index.html"><i class="fa-brands fa-instagram"></i></a>
-           
-        </h3><br><br><br>
-       <h1>
-       <i class="fa-solid fa-phone">+01 1234567890</i>&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa-solid fa-envelope">&nbsp;&nbsp;demo@gmail.com</i><br><br><br>
-      </h1>
-      <div>
-         <input type="email" placeholder="YOUR E-MAIL">
-      </div>
-      
+       <div>
+           <p>Signup To Receive Offers & Updates</p><br>
+           <input type="email" placeholder="YOUR E-MAIL">
+        </div> <br><br>
+      </center>
+    <hr>
+    
+        <div class="signup">
             
-    
+            <div>
+                <h1>IHCL</h1> <br>SUBSCRIBE FOR LATEST UPDATES<br><br><br>
+                <h3>FOR BOOKING CONTACT</h3>1-800-111-825<br>
+                <h3>CUSTOMER SUPPORT</h3>contacttaj@tajhotels.com<br>
+            <br><br>
+            <h3>reservation@ihcltata.com</h3>
+            <br><br>
+            <h3>website.feedback@tajhotels.com</h3>
+            </div>
+            <div>
+                <h1> <a href="contact.html">CONTACT US</a></h1><br><br>
+                <div>
+                    <p>Signup To Receive Offers & Updates</p><br>
+                    <input type="email" placeholder="YOUR E-MAIL">
+                    <button>SUBSCRIBE</button>
+                 </div> <br><br><br>
+                 <hr>
+                 ----------------------------------------------------------------<br>
+                 DESTINATION<br>
+                 ----------------------------------------------------------------
+                 <br>
+                 <hr>
+                 OUR BRANDS
+                <P>
 
+                </P>
+            </div>
   
-      
+            <div>
+              <h1> Quick links</h1><br><br>
+              <a href="">Destination</a><br>
+                 <a href="">Hotels</a> <br>
+                 <a href="">Dining</a> <br>
+                 <a href="">offers</a><br>
+                 <a href="">rastronant/bar</a><br>
+                 <a href="">membership</a><br>
+                 <a href="">Service</a>
+  
+                 <hr>
+                 <i class="fa-brands fa-instagram fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-facebook fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-twitter fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-google fa-fade"></i><br><br><br>
+              </div>
+              
+      </div>
+      ---------------------------------------------------------------------------------------------------------
+      DESTINATION<br>
+      ---------------------------------------------------------------------------------------------------------
     
-</footer>
-
-
-
-
-
-
+  </footer> 
+  <!--=======================[FOOTER ENDS HERE]==============-->
+  
+ 
 <!-- ---------------------swiper------------------ -->
 
 
@@ -415,5 +444,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="vanta.js"></script>
+    <script src="first.js"></script>
 </body>
 </html>

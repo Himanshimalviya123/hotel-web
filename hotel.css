@@ -629,7 +629,23 @@ gap: 20px;
 
 }
 /* ====fourth section end=====/ */ */
-
+#box4{
+    /* background-color: aqua; */
+    background-image: url("rolls3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   
+   #box4 input{
+       display: flex;
+       flex-wrap: nowrap;
+   }
+   
 /* ---------------------------------------------------------- */
  #connect{
     width: 100%;
