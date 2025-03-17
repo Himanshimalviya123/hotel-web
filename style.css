@@ -298,6 +298,114 @@
     color: black;
 } 
  /* =================================================================================================== */
+ /* /------------==================================third section starts here===================================================-->/ */
+ .abm{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+    /* border-radius: 50%; */
+    width: 100%;
+
+}
+ #aboutus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: #0f0e0e; */
+    color:white;
+    background-image: url("slide2.avif");
+    background-size: cover;
+    
+}
+.aboutcontains{
+    display: flex; 
+    gap: 200px;
+    margin-top: 150px;
+    /* background: #000000; */
+    /* background: rgba(135, 207, 235, 0.473); */
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+  
+}
+.imgdata{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid aliceblue; */
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+}
+.img2{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    border:5px outset aliceblue;
+}
+.content{
+   width: 600px;
+   height: 650px;
+   margin-top: 10px;
+   /* border: 1px solid aliceblue; */
+}
+.content h1 h2 h3{
+    font-weight: 500;
+}
+.content h1{
+    font-size: 25px;
+}
+.content button{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #f21818ee;
+    border: none;
+    /* font-size: 1.9em; */
+    font-size: x-large;
+}
+.content button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.content button:hover{
+    background-color: #df0f0f6c;
+    
+}
+.content img{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 8px;
+}
+/* /------------====================================third section end=======================================================
  /* /------------------room2----------------------/ */
 #room2{
     display: grid;
@@ -597,7 +705,7 @@ gap: 20px;
      display: grid;
     grid-template-columns: auto auto auto auto; 
     justify-content: center;
-    gap: 10px;
+    GAP:5px;
     background-color: dimgray;
 }
 
@@ -625,16 +733,16 @@ font-size:xx-large;
 }
 #containt .maindiv .one div{
     margin-top: 5%;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 10%;
  
 }
 #containt .maindiv .one img{
-    width:100%;
-    height:100%;
-    align-items: center;
+    width:80%;
+    height:80%;
+    /* align-items: center; */
     /* padding-left: 10%; */
     border-radius: 100%;
     transition: all 3s ease ;
@@ -648,7 +756,8 @@ font-size:xx-large;
 }
 
 #containt .maindiv .two{
-    width: 100%;
+    width: 90%;
+    /* height: auto; */
     /* background-color: aqua ; */
     flex-direction: column;
     justify-content: center;
@@ -656,14 +765,14 @@ font-size:xx-large;
    
 }
 #containt .maindiv .two div{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     width: 10%;
     display: flex;
     justify-content: space-evenly;
 }
 #containt .maindiv .two img{
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
     align-items: center;
     /* padding-left: 20%; */
     border-radius: 100%;
@@ -679,7 +788,7 @@ font-size:xx-large;
 
 #containt .maindiv .three{
     /* background-color: cadetblue; */
-    width: 100%;
+    width:100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -692,8 +801,8 @@ font-size:xx-large;
     /* margin-bottom: 10%; */
 }
 #containt .maindiv .three img{
-    width:100%;
-    height:100%;
+    width:90%;
+    height:80%;
     align-items: center;
     /* padding-left: 10%; */
 
@@ -722,10 +831,12 @@ font-size:xx-large;
     margin-bottom: 30%;
 }
 #containt .maindiv .four img{
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
     align-items: center;
-    /* padding-left: 10%; */
+    padding-left: 5%;
+    padding-right:5%;
+
 
     border-radius: 100%;
     transition: all 3s ease ;
@@ -753,12 +864,11 @@ font-size:xx-large;
     margin-bottom: 10%;
 }
 #containt .maindiv .five img{
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
     align-items: center;
-    /* padding-left: 10%; */
-
-    border-radius: 100%;
+    padding-left: 10%;
+ border-radius: 100%;
     transition: all 3s ease ;
 
 }
@@ -770,23 +880,24 @@ font-size:xx-large;
 }
 #containt .maindiv .six{
     /* background-color: lightskyblue; */
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 #containt .maindiv .six div{
-    margin-top: 2%;
-    width: 100%;
+    /* margin-top: 2%; */
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 5%;
 }
 #containt .maindiv .six img{
     width:100%;
-    height:100%;
+    height:80%;
     align-items: center;
-    /* padding-left: 15%; */
+    padding-left: 10%;
+    padding-right: 10%;
 
     border-radius: 100%;
     transition: all 3s ease ;
@@ -806,14 +917,14 @@ font-size:xx-large;
     align-items: center;
 }
 #containt .maindiv .seven div{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 #containt .maindiv .seven img{
-    width:100%;
-    height:100%;
+    width:90%;
+    height: 80%;
     align-items: center;
     /* padding-left: 25%; */
 
@@ -835,14 +946,14 @@ font-size:xx-large;
     align-items: center;
 }
 #containt .maindiv .eight div{
-    margin-top: 5%;
-    width: 100%;
+    /* margin-top: 5%; */
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
 }
 #containt .maindiv .eight img{
-    width:100%;
-    height:100%;
+    width:90%;
+    height:80%;
     align-items: center;
     /* padding-left: 10%; */
 
@@ -857,12 +968,15 @@ font-size:xx-large;
 
 }
 #containt .maindiv .even{
-    padding: 6% 30px;
-    /* background-color: rgb(140, 14, 14); */
+    padding: 4% 30%;
+    background-color: rgb(140, 14, 14);
     border: 2px solid black;
     color: white;
+    font-size: x-large;
     display: flex;
+/* padding-right: 30px; */
     justify-content: space-between;
+    align-items: center;
+    margin-left: 160%;
     
-}
- /* <============gifts shop close==============> */ */
+ /* <============gifts shop close==============> */ 
